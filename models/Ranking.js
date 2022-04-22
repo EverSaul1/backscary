@@ -11,6 +11,10 @@ const RankingSchema = Schema({
         require: true
         
     },
+    dateComment: {
+        type: Date,
+        require: true
+    },
     view: {
         type: Boolean,
     },  
